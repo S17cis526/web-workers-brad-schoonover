@@ -64,6 +64,12 @@ function handleRequest(req, res) {
     case '/images/fern.jpg':
       serveFile('images/fern.jpg', 'image/jpeg', req, res);
       break;
+    case '/permutations.js':
+      serveFile('public/permutations.js', 'text/javascript', req, res);
+      break;
+      case '/grayscale.js':
+        serveFile('public/grayscale.js', 'text/javascript', req, res);
+        break;
     case '/images/mobile.jpg':
       serveFile('images/mobile.jpg', 'image/jpeg', req, res);
       break;
